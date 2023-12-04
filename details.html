@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dragon Creations - </title>
+        <base target="_self"/>
+        
+        <link rel="stylesheet" href="./main.css">
+        <script src="./home.js"></script>
+    </head>
+
+    <body onload=loadProductDetails()>
+        <header>
+            <div class = "logo">
+                <img src="./Images/Logo.png" alt="" width="600">
+            </div>
+        </header>
+        <div id="product_title" class="product_title"></div>
+        <div class="product_details">
+            <div id="Description" style="width: 300px; margin-right: 5px; font-weight: bold; font-size:large; text-align: center;"></div>
+            <div style="width: 450px;">
+                <img style="max-width: 450px;" id="MainImage" src="" alt="">
+                
+            </div>
+            <div id="Price" style="width: 300px; font-size:x-large; text-align: center;">
+            </div>            
+        </div>
+
+        <div id="smallGallery" class="small_gallery">
+            <!-- Small Gallery is updated automatically using home.js -->
+        </div>
+        <div style="margin:auto; height: auto; display: flex; justify-content: space-evenly;">
+            <div class="nav_buttons" style="max-width: 500px;">
+                <img src="/Images/Prev.png" alt="" style="max-height: 75px;" onclick=switchModel(-1)>
+            </div>
+            <div class="nav_buttons" style="max-width: 500px;">
+                <img src="/Images/Next.png" alt="" style="max-height: 75px;" onclick=switchModel(1)>
+            </div>
+        </div>
+    </body>
+</html>

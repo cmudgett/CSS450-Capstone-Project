@@ -1,0 +1,94 @@
+/* This formating is for testing purposes only and it will show the boudning boxes of the window */
+/* * {
+    box-sizing: border-box;
+    background: rgb(0 100 0 / 0.1) !important;
+} */
+
+/* ELEMENT BASED SETTINGS */
+body {
+  background-color: #c6d2e4;
+  font-family: Arial;
+  font-size: 15px;
+  color: #272727;
+  }
+  
+div {
+  font-family: "Open Sans";
+  font-size: 15px;
+  }
+ 
+.logo {
+  text-align: center;
+}
+
+.gallery{
+  width: 660px;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.gallery div{
+  display: inline-flexbox;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery div a img{
+  width: 200px;
+  height: 200px;
+}
+
+.product_title{
+  height: auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font: bold;
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(158, 32, 32);
+}
+
+.product_details{
+  width: 1015px;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+.product_details div{
+  height: auto;
+  display: inline-flexbox;
+  margin: auto;
+  
+}
+
+.product_details div div{
+  text-align: center;
+  height: auto;
+  margin: auto;
+  display: inline-flexbox;
+}
+
+.small_gallery{
+  height: auto;
+  text-align: center;
+  margin: auto;
+  width: 450px;
+  vertical-align: middle;
+}
+
+.active{
+  border: #1714e2;  
+  border-style: solid;
+  border-width: 4px;
+}
+
+.nav_buttons img{
+  display: flexbox;
+}
